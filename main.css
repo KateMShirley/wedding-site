@@ -9,3 +9,13 @@ body{
 	background-size: cover; 
 	/*height: 800px;*/
 }
+
+#namesSvg{
+	width: 70%;
+	margin: 0 auto;
+}
+
+svg{
+	width: 100%;
+	margin: 0 auto;
+}

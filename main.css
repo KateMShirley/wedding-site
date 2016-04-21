@@ -4,10 +4,12 @@ h1{
 	text-align: center;
 }
 
-body{
-	background-image: url("img/IMG_1505.jpg");
-	background-size: cover; 
-	/*height: 800px;*/
+#std-contain{
+	width: 100%;
+}
+
+.std{
+	width: 100%;
 }
 
 #namesSvg{

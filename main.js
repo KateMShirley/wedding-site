@@ -5,7 +5,7 @@
 	var ctrl = new ScrollMagic.Controller({
         globalSceneOptions: {
             triggerHook: 'onLeave',
-            duration: "85%"
+            duration: "35%"
         }
     });
     $("section").each(function() {

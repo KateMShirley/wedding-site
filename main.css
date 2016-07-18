@@ -1,23 +1,236 @@
-h1{
-	color: white;
-	font-family: helvetica; 
-	text-align: center;
+html, body{
+  height: 100%;
+  margin: 0;
+}
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
 }
 
-#std-contain{
-	width: 100%;
+section{
+  height: 100%;
+  color: white;
+  position: relative;
+  font-family: "proxima-nova";
 }
 
-.std{
-	width: 100%;
+a{
+  color: white;
+  text-decoration: underline;
+}
+a:hover{
+  color: rgba(255, 255, 255, .5);
+}
+a:visited{
+  color: white;
+}
+h2{
+  text-transform: uppercase;
+  font-weight: normal;
 }
 
-#namesSvg{
-	width: 70%;
-	margin: 0 auto;
+.inner{
+  margin: 0 auto;
+  max-width: 85%;
+}
+svg {
+	visibility:hidden;
+
+}
+.st0{
+  fill: none;
+  stroke: white;
+  stroke-width: 2px;
 }
 
-svg{
-	width: 100%;
-	margin: 0 auto;
+#one{
+  background: linear-gradient(to bottom, rgba(0,0,0,0.45) 0%,rgba(0,0,0,0) 100%), url(img/lookingup.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+#two{
+  background: linear-gradient(to bottom, rgba(0,0,0,0.45) 0%,rgba(0,0,0,0) 100%), url(img/landscapeskiss.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+
+#three{
+    background:linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%), url(img/runaway.jpg) no-repeat center center fixed;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#four{
+  background:linear-gradient(to bottom, rgba(0,0,0,0.45) 0%,rgba(0,0,0,0) 100%), url(img/hands.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#five{
+    background:linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%), url(img/bwtrees.jpg) no-repeat center center fixed;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.name-container{
+  width: 80%;
+  padding-top: 100px;
+  z-index: 1000;
+  margin: 0 auto;
+}
+
+.date-container{
+  font-family: "proxima-nova";
+  opacity: 0;
+  z-index: 1000;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+h5{
+  font-size: 1em;
+  font-weight: normal;
+  margin-top: 15px;
+}
+.menu-container{
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  z-index: 1000;
+ 
+}
+
+.menu{
+  list-style-type: none;
+  font-family: "proxima-nova";
+  opacity: 0;
+
+}
+.menu li{
+  display: inline;
+  text-transform: uppercase;
+
+}
+.menu li:hover{
+  opacity: .7;
+  cursor: pointer;
+}
+
+.ceremony-container{
+  opacity: 0;
+  position: absolute;
+  top: 100px;
+  width: 50%;
+  background-color: rgba(0,0,0,.5);
+  border-radius: 2px;
+  
+}
+.ceremony-content{
+ padding: 20px;
+}
+.ceremony-content h2{
+  margin-bottom: 20px;
+}
+
+.ceremony-content h3{
+  font-weight: normal;
+}
+
+.hotel-container{
+  opacity: 0;
+  position: relative;
+  top: 125px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgba(0,0,0,.7);
+  border-radius: 2px;
+
+}
+.hotel-content{
+ padding: 20px;
+}
+.hotel-content h2{
+  margin-bottom: 20px;
+}
+
+.hotel-content h3{
+  font-weight: normal;
+}
+
+.hotel-content h4{
+  text-transform: uppercase;
+  font-weight: normal
+}
+
+.registry-container{
+  opacity: 0;
+  position: relative;
+  top: 90px;
+  /*margin: 0 100px 0 auto;*/
+  
+  background-color: rgba(0,0,0,.5);
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  
+}
+.registry-content{
+ padding: 20px;
+ text-align: center;
+ padding-top: 60px;
+}
+.registry-content h3{
+   margin-top: 12px;
+}
+
+.registry-content a{
+  font-weight: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+
+}
+
+.engage-container{
+  opacity: 0;
+  position: relative;
+  top: 120px;
+  /*margin: 0 100px 0 auto;*/
+  
+  background-color: rgba(0,0,0,.7);
+  border-radius: 2px;
+  width: 80%;
+  margin: 0 auto;
+  
+}
+.engage-content{
+ padding: 20px;
+
+}
+.footer{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background-color: rgba(0,0,0,.5);
+ 
+}
+h6{
+  font-size: .8em;
+  padding: 3px;
+   
+
 }

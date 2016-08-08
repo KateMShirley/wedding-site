@@ -1,5 +1,10 @@
 (function ($) {
 
+if (Modernizr.touch) {
+	console.log("this is a touchscreen");
+	$(".touch-alert").show();
+	$("section").hide();
+}
 
 
 	var ctrl = new ScrollMagic.Controller({

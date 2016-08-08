@@ -5,6 +5,46 @@ html, body{
 h1, h2, h3, h4, h5, h6{
   margin: 0;
 }
+.touch-alert{
+  display: none;
+  min-width: 100%;
+  min-height: 100%;
+  background:  url(img/lookingup.jpg) 50% 50%;
+  background-size: cover;
+  font-family: "proxima-nova";
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.touch-content{
+  background-color: rgba(0,0,0, .7);
+  border-radius: 2px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5px;
+
+}
+.touch-content-2{
+  background-color: rgba(0,0,0, .7);
+  border-radius: 2px;
+  width: 80%;
+  margin: 10px auto;
+  text-align: left;
+  padding: 10px;
+}
+.touch-content-2 h3{
+  text-align: center;
+}
+
+.mobile-list{
+  list-style-type: none
+}
+
+.mobile-list li{
+  margin-bottom: 10px;
+}
 
 section{
   height: 100%;

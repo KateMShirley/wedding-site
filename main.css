@@ -1,5 +1,6 @@
 html, body{
   height: 100%;
+  width: 100%;
   margin: 0;
 }
 h1, h2, h3, h4, h5, h6{
@@ -83,8 +84,10 @@ svg {
   stroke-width: 2px;
 }
 
+
+
 #one{
-  background: linear-gradient(to bottom, rgba(0,0,0,0.45) 0%,rgba(0,0,0,0) 100%), url(img/lookingup.jpg) no-repeat center center fixed;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.55) 0%,rgba(0,0,0,0) 100%), url(img/lookingup.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -93,7 +96,7 @@ svg {
 }
 
 #two{
-  background: linear-gradient(to bottom, rgba(0,0,0,0.45) 0%,rgba(0,0,0,0) 100%), url(img/landscapeskiss.jpg) no-repeat center center fixed;
+  background:  url(img/landscapeskiss.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -103,7 +106,7 @@ svg {
 
 
 #three{
-    background:linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%), url(img/runaway.jpg) no-repeat center center fixed;
+    background: url(img/runaway.jpg) no-repeat center center fixed;
 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -112,14 +115,14 @@ svg {
 }
 
 #four{
-  background:linear-gradient(to bottom, rgba(0,0,0,0.45) 0%,rgba(0,0,0,0) 100%), url(img/hands.jpg) no-repeat center center fixed;
+  background: url(img/hands.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 #five{
-    background:linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%), url(img/bwtrees.jpg) no-repeat center center fixed;
+    background: url(img/bwtrees.jpg) no-repeat center center fixed;
 
   -webkit-background-size: cover;
   -moz-background-size: cover;

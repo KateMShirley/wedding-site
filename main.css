@@ -74,6 +74,7 @@ h2{
 }
 svg {
 	visibility:hidden;
+  width: 100%;
 
 }
 .st0{
@@ -128,7 +129,7 @@ svg {
 
 .name-container{
   width: 80%;
-  padding-top: 100px;
+  padding-top: 80px;
   z-index: 1000;
   margin: 0 auto;
 }
@@ -139,6 +140,7 @@ svg {
   z-index: 1000;
   text-transform: uppercase;
   margin: 0 auto;
+  padding-left: 20px;
 }
 
 h5{
@@ -146,9 +148,18 @@ h5{
   font-weight: normal;
   margin-top: 15px;
 }
+.menu-bar{
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  z-index: 950;
+  background-color: rgba(0, 0, 0, .8);
+  opacity: 0;
+}
 .menu-container{
   position: fixed;
-  top: 10px;
+  top: 5px;
   right: 20px;
   z-index: 1000;
  
@@ -189,7 +200,20 @@ h5{
 .ceremony-content h3{
   font-weight: normal;
 }
+.leaf-container{
+  position: absolute;
+  width: 10%;
+  right: 40px;
+  bottom: 0px;
+  transform: rotate(50deg);
+}
+.leaf-1-svg{
 
+}
+.leaf{
+  stroke: white;
+  fill: none;
+}
 .hotel-container{
   opacity: 0;
   position: relative;
@@ -201,7 +225,7 @@ h5{
 
 }
 .hotel-content{
- padding: 20px;
+ padding: 40px;
 }
 .hotel-content h2{
   margin-bottom: 20px;
@@ -248,7 +272,7 @@ h5{
 .engage-container{
   opacity: 0;
   position: relative;
-  top: 120px;
+  top: 180px;
   /*margin: 0 100px 0 auto;*/
   
   background-color: rgba(0,0,0,.7);
@@ -258,15 +282,24 @@ h5{
   
 }
 .engage-content{
- padding: 20px;
+ padding: 40px;
 
+}
+.engage-content h5{
+  text-align: right;
+  margin-right: 20px;
+ 
 }
 .footer{
   position: absolute;
   bottom: 0px;
   right: 0px;
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0,0,0,.8);
  
+}
+.footer h6{
+  text-transform: uppercase;
+  font-weight: normal
 }
 h6{
   font-size: .8em;

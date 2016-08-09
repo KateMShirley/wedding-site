@@ -5,6 +5,8 @@ if (Modernizr.touch) {
 	$(".touch-alert").show();
 	$("section").hide();
 }
+    var leafTween = new TimelineMax()
+    .from(".leaf", 5, {drawSVG:0});
 
 
 	var ctrl = new ScrollMagic.Controller({
@@ -23,10 +25,24 @@ if (Modernizr.touch) {
  
 });
 
+
+
     new ScrollMagic.Scene({
     	triggerElement:".trigger-ceremony"
     })
     	.setTween(".ceremony-container", .5,{opacity: 1})
+    	.addTo(ctrl);
+
+    new ScrollMagic.Scene({
+    	triggerElement:".trigger-ceremony"
+    })
+    	.setTween(".menu-bar", .5,{opacity: 1})
+    	.addTo(ctrl);
+
+    new ScrollMagic.Scene({
+    	triggerElement:".trigger-ceremony"
+    })
+    	.setTween(leafTween)
     	.addTo(ctrl);
 
     	 new ScrollMagic.Scene({
@@ -159,17 +175,17 @@ if (Modernizr.touch) {
 	    	.to($('#intro'), 0.7, {autoAlpha: 0.5, ease:Power1.easeNone}, '-=1.4');
 
 		
-			TweenMax.set('svg',{css:{visibility:'visible'}, delay: .2});
+			TweenMax.set('svg',{css:{visibility:'visible'}, delay: 1});
 
-			TweenMax.fromTo(".mid-stroke", 1.5, {drawSVG:"49% 50%"}, {drawSVG:"100%", delay: .2});
+			TweenMax.fromTo(".mid-stroke", 1.5, {drawSVG:"49% 50%"}, {drawSVG:"100%", delay: 1});
 
-			TweenMax.fromTo(".end-stroke", 1.8, {drawSVG:"98% 99%"}, {drawSVG:"100%", delay: .2});
+			TweenMax.fromTo(".end-stroke", 1.8, {drawSVG:"98% 99%"}, {drawSVG:"100%", delay: 1});
 
-			TweenMax.from(".start-stroke", 1.7, {drawSVG:0, delay: .2});
+			TweenMax.from(".start-stroke", 1.7, {drawSVG:0, delay: 1});
 
-			TweenMax.to(".menu", 1, {css:{autoAlpha: 1}, delay: 2.1});
+			TweenMax.to(".menu", 1, {css:{autoAlpha: 1}, delay: 2.9});
 			
-			TweenMax.to(".date-container", 1,{css:{autoAlpha: 1}, delay: 2.1});
+			TweenMax.to(".date-container", 1,{css:{autoAlpha: 1}, delay: 2.9});
 
 
 
